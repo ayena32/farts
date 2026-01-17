@@ -72,16 +72,12 @@
         </div>
     </div>
     <div class="game-container">
-    <h1>Guess the Number</h1>
+    <h2>Guess the Number</h2>
     <p>Guess a number from 1-1000.</p>
-
     <input type="number" id="user_guess" placeholder="Enter guess" />
-
     <button id="submit_btn" py-click="check_guess">Guess</button>
     <button id="reset_btn" py-click="reset_game" style="background-color: #6c757d; display: none; margin-top: 10px;">Reset</button>
-
     <div id="result"></div>
-
     <div id="loading" class="loading">Loading python..</div>
 </div>
 
@@ -189,16 +185,17 @@
     <style>
         body {
             background-image: url(backgroud.jpg);
-            font-family: Arial, sans-serif
+            font-family: Arial, sans-serif;
+            color: white;
         }
 
         h1 {
             border-style: ridge;
             border-width: 10px;
-            border-color: royalblue;
+            border-color: #7300ff;
             padding: 10px;
             margin: 5px;
-            background-color: mediumaquamarine;
+            background-color: #9074f2;
         }
 
         #logo {
@@ -210,8 +207,8 @@
         }
 
         #content {
-            border: 10px ridge royalblue;
-            background-color: mediumaquamarine;
+            border: 10px ridge #7300ff;
+            background-color: #9074f2;
             padding: 10px
         }
 
@@ -243,7 +240,7 @@
        }
 
        button {
-            padding: 20px;
+            padding: 2px;
             font-size: 18px;
             border: none;
             border-radius: 5px;
@@ -340,6 +337,7 @@ button {
 </body>
 
 </html>
+
 
 
 
